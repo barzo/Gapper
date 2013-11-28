@@ -1,0 +1,148 @@
+Signature-Version: 1.0
+Created-By: 1.0 (Android)
+SHA1-Digest-Manifest: 26Kmy2ZB4yjbYVPyJVc+Hp9FQoU=
+
+Name: res/drawable-xhdpi/ic_launcher.png
+SHA1-Digest: HJWVdRCXqdgpLGGDT6Uzb5hkqQE=
+
+Name: assets/www/hydra/views/init.js
+SHA1-Digest: TSWvUSldnREznHZcb6Wty1W7szo=
+
+Name: res/xml/config.xml
+SHA1-Digest: hoRwHnLr68/vDk7Aym1sW/2BFlg=
+
+Name: res/drawable-hdpi/ic_launcher.png
+SHA1-Digest: 0oRDYl4wUOm0bMq8eVLJG09zkTg=
+
+Name: assets/www/hydra/libs/underscore/underscore.js
+SHA1-Digest: srC16VkDM5C1KIe3OSRBL317EdI=
+
+Name: assets/www/hydra/imgs/spinner.gif
+SHA1-Digest: y9MvXwq0qDzr3sNA3ciiFC7fiH8=
+
+Name: assets/www/hydra/libs/zepto/zepto.js
+SHA1-Digest: kgeMiAw+nnU+Kvh89pkLwAkM4vA=
+
+Name: resources.arsc
+SHA1-Digest: spN8RvMBJ0Serph3FfK4pdfxE3M=
+
+Name: assets/www/hydra/libs/lawnchair/lawnchair.js
+SHA1-Digest: H8Y8gYskgReVj2q6zU7A0Oc37F4=
+
+Name: assets/www/hydra/libs/underscore/underscore-min.js
+SHA1-Digest: hj7s3TfvPA+eIjo6FhjpZoGsS/M=
+
+Name: assets/www/phonegap.js
+SHA1-Digest: hX33pisOw5TnQJzIu9e83yScj24=
+
+Name: res/drawable-ldpi/ic_launcher.png
+SHA1-Digest: 2UO3QTOJW0jA6L4fx4GV0P+TKag=
+
+Name: assets/www/hydra/templates/update.html
+SHA1-Digest: E4BaarTlwkGZq6RX1+LNre7EfKk=
+
+Name: res/drawable-ldpi/icon.png
+SHA1-Digest: pgEItzOCOvcy4M22wawzdn8AvEc=
+
+Name: AndroidManifest.xml
+SHA1-Digest: oXv86u6bKz16ThuEyVOiYHLiy78=
+
+Name: assets/www/hydra/views/load_failed.js
+SHA1-Digest: 2OfF7SKH3iL9tfLuV4QedwrotQM=
+
+Name: res/drawable-mdpi/icon.png
+SHA1-Digest: I+SEqsBnwMDqxwQwabdUcjyZR9o=
+
+Name: assets/www/hydra/libs/mustache/mustache.js
+SHA1-Digest: gNxn1O5b2Bzf0jg0Cdj5Uvkwfj0=
+
+Name: assets/www/hydra/templates/download.html
+SHA1-Digest: howlDErbTNqBmMMbk4xPAbLHfBg=
+
+Name: assets/www/hydra/order.js
+SHA1-Digest: wEfFgW97wh7Hp20KEUkptuNq00E=
+
+Name: res/drawable-xhdpi/icon.png
+SHA1-Digest: ILtevW7iM+NOQc5r/erwvaQ8m9U=
+
+Name: assets/www/hydra/libs/cordova/cordova.js
+SHA1-Digest: 6o++5ohqwXJkIKcMWkDgoBelI8w=
+
+Name: assets/www/hydra/hydra.js
+SHA1-Digest: OSdAKSaDr+DVaPDKQgRfuSuqdO4=
+
+Name: assets/www/hydra/libs/hydration/hydration.js
+SHA1-Digest: RWzAkG7OSiIg/mU9lyfzZc8Wy8I=
+
+Name: assets/www/hydra/templates/loading.html
+SHA1-Digest: ePZVGHWueQ1R7iu6xJ4KXgtxXOA=
+
+Name: assets/www/hydra/libs/lawnchair/lawnchair-min.js
+SHA1-Digest: Hg1/ieT2ruVTOYPSEXnWaGOrEkU=
+
+Name: assets/www/hydra/libs/backbone/backbone-min.js
+SHA1-Digest: Xtflonk6y9kkP/cR93KgBeFQvLw=
+
+Name: assets/www/hydra/settings.js
+SHA1-Digest: OM21NJan2aoq9NamEU4Sq7bJKnc=
+
+Name: assets/www/cordova_plugins.json
+SHA1-Digest: SB0ZbCrCPexDjaReW6W4VUeKiuI=
+
+Name: assets/www/hydra/css/app.css
+SHA1-Digest: vU5E1aOjErtJmVP3SJBSy0l9ZW0=
+
+Name: classes.dex
+SHA1-Digest: IYPZ2lv2Mq7XtjpiEJrOX6o1LFI=
+
+Name: assets/www/hydra/views/update.js
+SHA1-Digest: IKEg9UCIQ24poTc/argtc/x0wd0=
+
+Name: assets/www/hydra/templates/load_failed.html
+SHA1-Digest: mD9NCg4JKlgOeRhEoRNYMl9mjws=
+
+Name: assets/www/hydra/libs/require/require-1.0.8.js
+SHA1-Digest: 8JhVOLbJAdGGQTRv1tOr+q+c6Gk=
+
+Name: assets/www/hydra/main.js
+SHA1-Digest: S8Z7uINohb3VqHu03rd5AeENi9E=
+
+Name: assets/www/hydra/templates/init.html
+SHA1-Digest: tp+lfYujbJYO2cp5rXCrHxkliYg=
+
+Name: res/layout/main.xml
+SHA1-Digest: RqoU0vuJW21wMUOLVMwH61vvlh0=
+
+Name: assets/www/cordova.js
+SHA1-Digest: biEQoBTd2V1stWhrydy4ho8exxQ=
+
+Name: res/drawable-mdpi/ic_launcher.png
+SHA1-Digest: 73TZoa+3ApYPkY+wbmr1XiAso58=
+
+Name: assets/www/hydra/libs/backbone/backbone.js
+SHA1-Digest: ijebnHirGuXOVKLslITP0OfeaYs=
+
+Name: res/drawable/icon.png
+SHA1-Digest: uvuielAB8iUnMLObHEXVenPOa+o=
+
+Name: assets/www/hydra/libs/zepto/zepto-min.js
+SHA1-Digest: i5Jzt0Qr6o1ZasOiimk2d7vOCVc=
+
+Name: assets/www/hydra/views/download.js
+SHA1-Digest: 4LKuBSyBfITB0YMftRbflxD2hFI=
+
+Name: assets/www/hydra/views/loading.js
+SHA1-Digest: G7fHJCJWg9j2dRseSAdjlBqFFHw=
+
+Name: assets/www/hydra/text.js
+SHA1-Digest: wNAi5OUFJALUzbmnFakpPnlNiDk=
+
+Name: assets/www/index.html
+SHA1-Digest: oXz5tpephXBk50pJxQtr6ik6jiw=
+
+Name: assets/startup.zip
+SHA1-Digest: 9/43zDQxvziRt9JOfipKQDzGAzk=
+
+Name: res/drawable-hdpi/icon.png
+SHA1-Digest: XfAbtw3zuMWQbGTvbbw/KIngfT0=
+
