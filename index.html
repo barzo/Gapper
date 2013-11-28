@@ -5,20 +5,28 @@
 </head>
 <body>
 
-<button id="doIt">Do It</button>
-<button id="clear">Clear</button>
+	<header id="header" class="">
+		<nav>
+			<ul>
+				<li><a href="" title="">Menu Item</a></li>
+			</ul>
+		</nav>	
+	</header><!-- /header -->
 
-<div id="results"></div>
+	<button id="doIt">Do It</button>
+	<button id="clear">Clear</button>
 
-<script src="static/js/zepto.min.js"></script>
-<script src="static/js/app.js"></script>
-<script>
-	$('#doIt').click(function(){
-		Gapper.doIt($('#results'));
-	});
-	$('#clear').click(function(){
-		$('#results').html('');
-	});
-</script>
+	<div id="results"></div>
+
+	<script src="static/js/zepto.min.js"></script>
+	<script src="static/js/app.js"></script>
+	<script>
+		$('#doIt').click(function(){
+			Gapper.doIt($('#results'));
+		});
+		$('#clear').click(function(){
+			$('#results').html('');
+		});
+	</script>
 </body>
 </html>
