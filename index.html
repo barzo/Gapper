@@ -44,6 +44,7 @@
 
 	<div id="container">
 		<div id="button-group">
+			<button id="checkConnection">Check Connection</button>
 			<button id="doIt">Do It</button>
 			<button id="clear">Clear</button>		
 			<div id="results"></div>
@@ -94,6 +95,9 @@
 	<script src="static/js/zepto.min.js"></script>
 	<script src="static/js/app.js"></script>
 	<script>
+		$('#checkConnection').click(function(){
+			Gapper.checkConnection();
+		});
 		$('#doIt').click(function(){
 			Gapper.doIt($('#results'));
 		});
