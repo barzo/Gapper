@@ -1,137 +1,83 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html class="no-js ui-mobile-rendering" lang="en">
 <head>
-	<title>Gapper</title>
-	<link rel="stylesheet" href="static/css/normalize.css">
-	<style type="text/css">
-		header {
-			padding: 0;
-			margin: 0;
-			position: fixed;
-			top: 0;
-			width: 100%;
-			height: 40px;
-			background: #fff200;
-			box-shadow: 1px 1px 1px #999;
-		}
-		header h3 {
-			font-size: 15px;
-			text-align: center;
-		}
-		#container {
-			margin-top: 50px;
-		}
-		#listItems, #listItems ul {
-			padding: 0;
-			margin: 0;
-		}
-		#listItems li{
-			background: #f5f5f5;
-			border-bottom: 1px solid #ededed;
-			display: block;
-			margin-bottom: 2px;
-		}
-		#listItems img {
-			display: block;
-		}
-	</style>
+      <title>Backbone.js, Require.js, and jQuery Mobile</title>
+      <meta name="description" content="">
+
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+      <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.css" />
+      <script src="static/js/vendor/require.js" data-main="static/js/mobile"></script>
 </head>
 <body>
 
-	<header id="header">
-		<h3>Yellow Test</h3>	
-	</header><!-- /header -->
+<div id="categories" data-role="page" data-title="Categories">
+  
+      <div data-role="header">
+            <h1>Categories</h1>
+      </div><!-- /header -->
+  
+      <div data-role="content">
+            <h2>Select a Category Below:</h2>
+            <ul data-role="listview" data-inset="true">
+                  <li><a href="#category?animals" class="animals">Animals</a></li>
+                  <li><a href="#category?colors" class="colors">Colors</a></li>
+                  <li><a href="#category?vehicles" class="vehicles">Vehicles</a></li>
+            </ul>
+      </div><!-- /content -->
 
-	<div id="container">
-		<div id="button-group">
-			<button id="checkConnection">Check Connection</button>
-			<button id="doIt">Do It</button>
-			<button id="clear">Clear</button>		
-			<div id="results"></div>
-		</div>
+</div>
 
-		<div id="listItems">
-			<ul>
-				<li>
-					<img src="http://lorempixel.com/150/100/">
-					<h4>Test Title</h4>
-				</li>
-				<li>
-					<img src="http://lorempixel.com/150/100/">
-					<h4>Test Title</h4>
-				</li>
-				<li>
-					<img src="http://lorempixel.com/150/100/">
-					<h4>Test Title</h4>
-				</li>
-				<li>
-					<img src="http://lorempixel.com/150/100/">
-					<h4>Test Title</h4>
-				</li>
-				<li>
-					<img src="http://lorempixel.com/150/100/">
-					<h4>Test Title</h4>
-				</li>
-				<li>
-					<img src="http://lorempixel.com/150/100/">
-					<h4>Test Title</h4>
-				</li>
-				<li>
-					<img src="http://lorempixel.com/150/100/">
-					<h4>Test Title</h4>
-				</li>
-				<li>
-					<img src="http://lorempixel.com/150/100/">
-					<h4>Test Title</h4>
-				</li>
-				<li>
-					<img src="http://lorempixel.com/150/100/">
-					<h4>Test Title</h4>
-				</li>
-			</ul>
-		</div>
-	</div>
+<div id="animals" data-role="page" data-title="Animals">
 
-	<script src="phonegap.js"></script>
-	<script src="static/js/zepto.min.js"></script>
-	<script src="static/js/app.js"></script>
-	<script>
-		$('#checkConnection').click(function(){
-			alert("Alertttt...\nTest 1 2 3");
-		});
-		$('#doIt').click(function(){
-			Gapper.doIt($('#results'));
-		});
-		$('#clear').click(function(){
-			$('#results').html('');
-		});
-// Wait for Cordova to load
-    // 
-    document.addEventListener("deviceready", onDeviceReady, false);
+      <div data-role="header">
+	    <h1>Animals</h1>
+      </div><!-- /header -->
+  
+      <div data-role="content">
+            <ul data-role="listview" data-inset="true">
+            </ul>
+      </div><!-- /content -->
+</div>
 
-    // Cordova is loaded and it is now safe to make calls Cordova methods
-    //
-    function onDeviceReady() {
-    	alert("Device Ready");
-    	alert(navigator);
-        checkConnection();
-    }
+<div id="colors" data-role="page" data-title="Colors">
 
-    function checkConnection() {
-        var networkState = navigator.connection.type;
+      <div data-role="header">
+	    <h1>Colors</h1>
+      </div><!-- /header -->
 
-        var states = {};
-        states[Connection.UNKNOWN]  = 'Unknown connection';
-        states[Connection.ETHERNET] = 'Ethernet connection';
-        states[Connection.WIFI]     = 'WiFi connection';
-        states[Connection.CELL_2G]  = 'Cell 2G connection';
-        states[Connection.CELL_3G]  = 'Cell 3G connection';
-        states[Connection.CELL_4G]  = 'Cell 4G connection';
-        states[Connection.NONE]     = 'No network connection';
+      <div data-role="content">
+            <ul data-role="listview" data-inset="true">
+            </ul>
+      </div><!-- /content -->
 
-        alert('Connection type: ' + states[networkState]);
-    }
+</div>
 
-	</script>
+<div id="vehicles" data-role="page" data-title="Vehicles">
+
+      <div data-role="header">
+	    <h1>Vehicles</h1>
+      </div><!-- /header -->
+  
+      <div data-role="content">
+            <ul data-role="listview" data-inset="true">
+            </ul>
+      </div><!-- /content -->
+
+</div>
+
+<!-- Underscore Template that is used to display all of the Category Models -->
+<script id="categoryItems" type="text/template">
+
+      <% _.each( collection.toJSON(), function( category, id ) { %>
+
+            <li class="ui-li ui-li-static ui-btn-up-c ui-corner-top">
+                  <%= category.type %>
+            </li>
+
+      <% }); %>
+
+</script>
+
 </body>
 </html>

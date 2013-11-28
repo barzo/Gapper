@@ -22,10 +22,13 @@
     -->
     <feature name="http://api.phonegap.com/1.0/device" />
 
+    <!--
+        Bu olayi henuz cozemedim bakalim...
     <feature name="NetworkStatus">
         <param name="android-package" value="org.apache.cordova.NetworkManager" />
     </feature>
-    
+    -->
+
     <!--
         Sadece Android icin build edecek...
     -->
