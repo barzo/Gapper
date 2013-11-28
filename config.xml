@@ -2,9 +2,9 @@
 
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
 <widget xmlns     = "http://www.w3.org/ns/widgets"
-        xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.ucheze.gapper"
-        version   = "1.0.0">
+    xmlns:gap = "http://phonegap.com/ns/1.0"
+    id        = "com.ucheze.gapper"
+    version   = "1.0.0">
 
     <name>Gapper Test</name>
 
@@ -22,6 +22,9 @@
     -->
     <feature name="http://api.phonegap.com/1.0/device" />
 
+    <feature name="NetworkStatus">
+        <param name="android-package" value="org.apache.cordova.NetworkManager" />
+    </feature>
     
     <!--
         Sadece Android icin build edecek...
@@ -57,7 +60,6 @@
         <gap:plugin name="Example" />
         A list of available plugins are available at https://build.phonegap.com/docs/plugins
     -->
-    <gap:plugin name="NetworkStatus" value="org.apache.cordova.NetworkManager" />
 
 
     <!-- Define app icon for each platform. -->
